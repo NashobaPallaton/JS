@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzeria</title>
+</head>
+<body>
+    
+    <table> 
+
+        <tr> 
+           <td><button onclick="afficher('+11.7')">Pizza Margheritta</button> x 11.70€</td> 
+           <td><img src="/pizzeria/img_pizza/pizza.png" alt="" width="100px"></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="afficher('+12.1')">Pizza Volcano</button> x 12.10€</td> 
+           <td><img src="/pizzeria/img_pizza/pizza.png" alt="" width="100px"></td>  
+        </tr> 
+        <tr> 
+           <td><button onclick="afficher('+9.5')">Pizza Végé</button> x 9.50€</td> 
+           <td><img src="/pizzeria/img_pizza/pizza.png" alt="" width="100px"></td>  
+        </tr> 
+
+        <tr> 
+            <td colspan="3"><input id="output"/></td>
+            <td><button onclick="calculer()">=</button></td> 
+            <td><button onclick="effacer()">c</button></td> 
+         </tr> 
+
+     </table> 
+
+    <script src="/pizzeria/script.js"></script>
+</body>
+</html>

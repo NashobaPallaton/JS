@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/note/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Bulletin</title>
+</head>
+
+<body>
+
+    <h1>Bulletin Scolaire</h1>
+    <br>
+    <H2>"Nom de l'élève"</H2>
+    <p id="demo">0000</p>
+    <br>
+    <form name="form1">
+        <table class="table table-light">
+            <tr>
+                <th scope="col" class="col-1">Matière</th>
+                <th scope="col" class="col-2">Appréciations</th>
+                <th scope="col" class="col-2">Note</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                    laudantium</td>
+                <td class="row"><input type="text" id="inputnote1" class="form-control" style="width: 200px;">/20</td>
+            </tr>
+
+            <tr>
+                <td>Francais</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                    laudantium</td>
+                <td class="row"><input type="text" id="inputnote2" class="form-control" style="width: 200px;">/20</td>
+            </tr>
+
+            <tr>
+                <td>Histoire/Géo</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                    laudantium</td>
+                <td class="row"><input type="text" id="inputnote3" class="form-control" style="width: 200px;">/20</td>
+            </tr>
+
+            <tr>
+                <td>Sport</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                    laudantium</td>
+                <td class="row"><input type="text" id="inputnote4" class="form-control" style="width: 200px;">/20</td>
+            </tr>
+
+            <tr>
+                <td>Art Plastique</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                    laudantium</td>
+                <td class="row"><input type="text" id="inputnote5" class="form-control" style="width: 200px;">/20</td>
+            </tr>
+
+            <tr>
+                <td>Physique-Chimie</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                    laudantium</td>
+                <td class="row"><input type="text" id="inputnote6" class="form-control" style="width: 200px;">/20</td>
+            </tr>
+
+        </table>
+
+        <table>
+            <tr>
+                <td class="col 3"><input type="button" value="Moyenne Générale" onclick="get_value()"></td>
+                <td> : </td>
+                <td><input type="text" name="output"></td>
+            </tr>
+        </table>
+
+    </form>
+
+    <script src="/note/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
