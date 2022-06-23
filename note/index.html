@@ -16,66 +16,65 @@
     <h1>Bulletin Scolaire</h1>
     <br>
     <H2>"Nom de l'élève"</H2>
-    <p id="demo">0000</p>
     <br>
-    <form name="form1">
-        <table class="table table-light">
-            <tr>
-                <th scope="col" class="col-1">Matière</th>
-                <th scope="col" class="col-2">Appréciations</th>
-                <th scope="col" class="col-2">Note</th>
-            </tr>
-            <tr>
+
+    <table class="table table-light">
+        <tr>
+            <th scope="col" class="col-1">Matière</th>
+            <th scope="col" class="col-2">Appréciations</th>
+            <th scope="col" class="col-2">Note</th>
+        </tr>
+        <tr>
+            <form name="form1" onsubmit="return calculer_moyenne(this)">
                 <td>Math</td>
                 <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
                     laudantium</td>
                 <td class="row"><input type="text" id="inputnote1" class="form-control" style="width: 200px;">/20</td>
-            </tr>
+        </tr>
 
-            <tr>
-                <td>Francais</td>
-                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
-                    laudantium</td>
-                <td class="row"><input type="text" id="inputnote2" class="form-control" style="width: 200px;">/20</td>
-            </tr>
+        <tr>
+            <td>Francais</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                laudantium</td>
+            <td class="row"><input type="text" id="inputnote2" class="form-control" style="width: 200px;">/20</td>
+        </tr>
 
-            <tr>
-                <td>Histoire/Géo</td>
-                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
-                    laudantium</td>
-                <td class="row"><input type="text" id="inputnote3" class="form-control" style="width: 200px;">/20</td>
-            </tr>
+        <tr>
+            <td>Histoire/Géo</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                laudantium</td>
+            <td class="row"><input type="text" id="inputnote3" class="form-control" style="width: 200px;">/20</td>
+        </tr>
 
-            <tr>
-                <td>Sport</td>
-                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
-                    laudantium</td>
-                <td class="row"><input type="text" id="inputnote4" class="form-control" style="width: 200px;">/20</td>
-            </tr>
+        <tr>
+            <td>Sport</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                laudantium</td>
+            <td class="row"><input type="text" id="inputnote4" class="form-control" style="width: 200px;">/20</td>
+        </tr>
 
-            <tr>
-                <td>Art Plastique</td>
-                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
-                    laudantium</td>
-                <td class="row"><input type="text" id="inputnote5" class="form-control" style="width: 200px;">/20</td>
-            </tr>
+        <tr>
+            <td>Art Plastique</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                laudantium</td>
+            <td class="row"><input type="text" id="inputnote5" class="form-control" style="width: 200px;">/20</td>
+        </tr>
 
-            <tr>
-                <td>Physique-Chimie</td>
-                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
-                    laudantium</td>
-                <td class="row"><input type="text" id="inputnote6" class="form-control" style="width: 200px;">/20</td>
-            </tr>
+        <tr>
+            <td>Physique-Chimie</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus aliquid perspiciatis
+                laudantium</td>
+            <td class="row"><input type="text" id="inputnote6" class="form-control" style="width: 200px;">/20</td>
+        </tr>
 
-        </table>
+    </table>
 
-        <table>
-            <tr>
-                <td class="col 3"><input type="button" value="Moyenne Générale" onclick="get_value()"></td>
-                <td> : </td>
-                <td><input type="text" name="output"></td>
-            </tr>
-        </table>
+    <table>
+        <tr>
+            <td><input type="submit" name="output" value="Moyenne Générale"></td>
+            <td><span id="result"></span>/20</td>
+        </tr>
+    </table>
 
     </form>
 
