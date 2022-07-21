@@ -1,4 +1,7 @@
-function add(){
+if(localStorage.storedList){
+    load();
+
+}function add(){
     let newItem = document.createElement("div");
     newItem.innerHTML = document.getElementById("box").value;
     newItem.onclick = remove;
@@ -20,8 +23,4 @@ function load(){
     for(var i=0; i < list.children.lenght; i++){
         list.children[1].onclick = remove;
     }
-}
-
-if(localStorage.storedList){
-    load();
 }
