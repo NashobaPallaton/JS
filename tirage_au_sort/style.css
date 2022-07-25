@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: rgb(204, 231, 255);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+    background-color: rgb(204, 231, 255);
+    height: 40px;
+    font-family:'Amatic SC', cursive;
+}
+
+#corps {
+    background-color: rgb(255, 241, 220);
+    width: 500px;
+    height: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: rgb(255, 199, 135);
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 10px;
+
+}

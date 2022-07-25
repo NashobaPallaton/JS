@@ -7,7 +7,6 @@ function lancer() {
     let hasard = random(eleve.length);
     let resultat = eleve[hasard]
     document.getElementById('result').innerHTML = resultat
-
 }
 
 
