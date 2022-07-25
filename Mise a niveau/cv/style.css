@@ -1,0 +1,67 @@
+body {
+    background-image: url("/cv/img/Cosmos.webp");
+}
+
+#Box1 {
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    border: solid;
+    border-color: rgb(99, 99, 99);
+}
+
+
+#Box2 {
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    border: solid;
+    border-color: rgb(99, 99, 99);
+}
+
+h1 {
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    text-align: center;
+}
+
+#image {
+    margin: auto;
+    text-align: center;
+}
+
+#form1 {
+    color: aliceblue;
+}
+
+#Box3 {
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    border: solid;
+    border-color: rgb(99, 99, 99);
+}
+
+
+#reseau1 {
+    color: aliceblue;
+    background-color: #3b5998;
+    text-align: center;
+}
+
+#reseau2 {
+    color: aliceblue;
+    background-color: #00acee;
+    text-align: center;
+}
+
+#reseau3 {
+    color: aliceblue;
+    background-color: #87536a;
+    text-align: center;
+}
+
+a:hover {
+    background-color: dimgray;
+    border-radius: 10%;
+}

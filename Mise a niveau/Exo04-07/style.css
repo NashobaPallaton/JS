@@ -1,0 +1,89 @@
+header {
+    background-color: rgb(205, 151, 255);
+    display: grid;
+}
+
+.logo {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(117, 107, 186);
+}
+
+.Parent1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.Parent2 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+}
+
+.enfant1 {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.enfant2 {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.enfantA {
+    background-color: coral;
+    padding: 10px;
+}
+
+.enfantB {
+    background-color: darkorchid;
+    padding: 10px;
+}
+
+.enfantC {
+    background-color: coral;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li:hover {
+    background-color: rgb(255, 239, 176);
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: rgb(125, 125, 125);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        background-color: rgb(205, 151, 255);
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .Parent1 {
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+
+    .Parent2 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
