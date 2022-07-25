@@ -2,6 +2,7 @@ function search() {
 
     var text = document.getElementById("p").innerHTML;
     var mot = document.getElementById("entry").value;
+    let x = 0
 
     if(mot!=""){
         let expReg = new RegExp(mot, "ig");
@@ -9,6 +10,6 @@ function search() {
 
         text = text.replace(expReg,remplacement);
         document.getElementById("p").innerHTML = text;
-        
-    }
+        }
+
 }
