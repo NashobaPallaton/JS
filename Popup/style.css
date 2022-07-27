@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(62, 62, 255, 0.779);
+}
+
+.popup{
+    background-color: rgba(214, 214, 214, 0.8);
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute; /*apparaitre au dessus de tout*/
+    transform: translate(-50%, -50%); /*La fonction translate() permet de déplacer un élément sur le plan représenté par le document.*/
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+}
+
+.popup button{
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: gray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(62, 62, 255, 0.779);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}

@@ -1,4 +1,4 @@
-let form = document.querySelector('#loginForm');
+let form = document.getElementById('loginForm').value;
 
 form.email.addEventListener('change', function(){
     validEmail(this);
